@@ -8,7 +8,7 @@ const Home = () => {
     name: 'Basmathi',
     weight: '1kg',
     price: 500,
-    image: '/rice-image.jpg' // You'll need to add this image to your public folder
+    image: '/rice.png' // Notice the leading "/"
   });
 
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       {/* Navbar */}
       <nav className="navbar">
         <div className="logo-container">
-          <img src="/logo.png" alt="Logo" className="logo" />
+        <img src="/logo (1).png" alt="Logo" className="logo" />
         </div>
         <div className="nav-links">
           <a href="#" className="nav-link active">Home</a>
